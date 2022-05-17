@@ -1,0 +1,292 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+#dash {
+  position: fixed;
+  display: none;
+  background-color: lightyellow;
+  top: 0;
+  padding-top: 1.5rem;
+  left: 70%;
+  width: 100vw;
+  height: 50vh;
+  font-size: 0.6rem;
+}
+#dash div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#dash h1 {
+  margin-left: 1rem;
+  margin-top: 0.6rem;
+}
+
+#dash div button {
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 1rem;
+  background: none;
+  margin-left: 4rem;
+  border-radius: 2rem;
+}
+#signUp {
+  /* visibility: none; */
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  justify-content: space-evenly;
+  align-items: center;
+  visibility: none;
+}
+#signUp form {
+  display: flex;
+  flex-direction: column;
+}
+#signUp form label {
+  margin-bottom: 1rem;
+}
+#signUp div button {
+  margin-bottom: 5rem;
+  padding: 1rem 1rem;
+}
+main {
+  background-image: url("./img/pexels-christina-morillo-1181355.jpg");
+  height: 45vh;
+  background-size: cover;
+}
+
+/* Navigation Styling */
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+}
+nav div:nth-child(1) {
+  display: flex;
+}
+nav div:nth-child(1) div {
+  display: flex;
+  flex-direction: column;
+}
+nav div:nth-child(1) #title {
+  margin-top: 1.3rem;
+  margin-left: 0.5rem;
+}
+
+nav div:nth-child(2) {
+  display: flex;
+  margin-right: 2rem;
+  align-items: center;
+}
+nav div:nth-child(2) i {
+  margin-left: 1rem;
+}
+nav img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 5rem;
+  margin-top: 0.7rem;
+}
+
+/* Section; Title of the page Styling */
+main section {
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: cornsilk;
+}
+main section h2 {
+  font-size: 4.5vmax;
+  font-weight: bolder;
+}
+main section h1 {
+  font-size: 5vmax;
+}
+main section p {
+  margin-top: 1rem;
+  font-weight: 900;
+  color: cornsilk;
+}
+main section #btn {
+  padding: 1rem 1rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  background: none;
+  font-size: 2vmax;
+  color: cornsilk;
+  border-color: white;
+  font-weight: bolder;
+}
+main section a {
+  text-decoration: none;
+  padding: 0.5rem 2rem;
+  color: rosybrown;
+  font-weight: bold;
+  border-bottom: 3px solid cornsilk;
+  border-width: 5px;
+  font-size: 3vmax;
+  cursor: pointer;
+}
+
+/* Section One */
+#section-one {
+  width: 100vw;
+  background-image: url("./img/pexels-dan-cristian-pădureț-1476321.jpg");
+  background-attachment: fixed;
+  background-size: contain;
+}
+#section-one #section-one-main {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: lightcyan;
+}
+#section-one #section-one-main h1 {
+  border-bottom: 1px solid black;
+}
+#section-one #section-one-main p {
+  font-size: 1.1rem;
+  padding-left: 2rem;
+  padding-right: 3rem;
+  margin-top: 2rem;
+}
+#section-one div:nth-child(1) {
+  height: 15vh;
+}
+
+/* project tabs */
+
+/* Tab 1 */
+#section-one div:nth-of-type(2) div:nth-of-type(1) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#section-one div:nth-of-type(2) div:nth-of-type(1) i {
+  margin-left: 2.2rem;
+  background-color: red;
+  padding: 0.5rem;
+  border-radius: 0.5em;
+}
+#section-one div:nth-of-type(2) div:nth-of-type(1) h1 {
+  background-color: aquamarine;
+  border-radius: 15px;
+  padding: 2rem 3rem;
+}
+
+/* Tab 2 */
+#section-one div:nth-of-type(2) div:nth-of-type(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 15vh;
+}
+#section-one div:nth-of-type(2) div:nth-of-type(2) i {
+  margin-left: 1rem;
+  background-color: blue;
+  padding: 0.5rem;
+  border-radius: 0.5em;
+}
+#section-one div:nth-of-type(2) div:nth-of-type(2) h1 {
+  background-color: aquamarine;
+  border-radius: 15px;
+  padding: 1.5rem 2.3rem;
+}
+
+/* Tab 3 */
+#section-one div:nth-of-type(2) div:nth-of-type(3) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 15vh;
+}
+#section-one div:nth-of-type(2) div:nth-of-type(3) i {
+  margin-left: 9rem;
+  background-color: red;
+  padding: 0.5rem;
+  border-radius: 0.5em;
+}
+#section-one div:nth-of-type(2) div:nth-of-type(3) h1 {
+  background-color: aquamarine;
+  border-radius: 15px;
+  padding: 1.5rem 2rem;
+}
+
+/* Tab 4 */
+
+#section-one div:nth-of-type(2) div:nth-of-type(4) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 15vh;
+}
+#section-one div:nth-of-type(2) div:nth-of-type(4) i {
+  margin-left: 7rem;
+  background-color: blue;
+  padding: 0.5rem;
+  border-radius: 0.5em;
+}
+#section-one div:nth-of-type(2) div:nth-of-type(4) h1 {
+  background-color: aquamarine;
+  border-radius: 15px;
+  padding: 1.5rem 2rem;
+}
+
+#footer {
+  height: 100vh;
+  background-image: url("./img/pexels-andrea-piacquadio-840996.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+#footer div {
+  width: 50vh;
+  margin-left: 45%;
+}
+#footer div h1 {
+  font-size: 5vmax;
+  padding-top: 1rem;
+}
+#footer p {
+  font-size: 1.3rem;
+}
+#footer p:first-of-type {
+  margin-top: 5rem;
+}
+#footer p:nth-of-type(2) {
+  margin-top: 3rem;
+}
+#footer div button {
+  margin-top: 2rem;
+  background: none;
+  border: none;
+  background-color: lemonchiffon;
+  padding: 1rem 1rem;
+  border-radius: 1rem;
+}
+#footer div button i {
+  margin-left: 0.5rem;
+}
+
+/* FORM */
+
+#show {
+  position: fixed;
+  top: 70%;
+  left: 0;
+  width: 100%;
+  overflow: visible !important;
+}

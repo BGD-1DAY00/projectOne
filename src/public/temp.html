@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+ 
+    <title><%= htmlWebpackPlugin.options.title%></title>
+  </head>
+  <body>
+    <div id="dash">
+      <div>
+        <h1>DASHBOARD</h1>
+        <button id="dashButton">X</button>
+      </div>
+    </div>
+    <div id="signUp">
+      <form action="" method="post">
+        <label for="userID"
+          >User ID:
+          <input type="text" name="userID" id="userID" />
+        </label>
+
+        <label for="fname"
+          >First Name:
+          <input type="text" name="fname" id="fname" />
+        </label>
+
+        <label for="lname"
+          >Last Name:
+          <input type="text" name="lname" id="lname" />
+        </label>
+
+        <label for="birthday"
+          >Birthday:
+          <input type="date" name="birthday" id="birthday" />
+        </label>
+
+        <button id="form-submit-btn" type="submit">Submit</button>
+
+        <div id="show"></div>
+      </form>
+      <div>
+        <button id="form-btn"><i class="fa-solid fa-x"></i></button>
+      </div>
+    </div>
+    <main id="main">
+      <nav id="nav">
+        <div>
+          <img id="img" />
+          <div id="title">
+            <h1>
+              YORK <br />
+              <span id="sub-title">SOULTIONS</span>
+            </h1>
+          </div>
+        </div>
+        <div id="press">
+          <h3>Consultant</h3>
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+
+      <section>
+        <h2>WORK WITH US</h2>
+        <h1>& GROW</h1>
+        <p>
+          We are an IT consulting firm that is disrupting and innovating the way
+          IT delivers value to the business
+        </p>
+        <div>
+          <button id="btn">Register</button>
+          <a href="other.html">Loop</a>
+        </div>
+      </section>
+    </main>
+
+    <section id="section-one" class="section">
+      <div id="section-one-main">
+        <h1>SERVICES FOR IT EXECUTIVES</h1>
+        <p>
+          We provide cutting-edge workforce solutions to help organizations
+          achieve business, technology, and operational goals. Using a strategic
+          partnership approach with our clients and consultants, York Solutions
+          focuses on fostering a long-term, trust-based relationship.
+        </p>
+      </div>
+      <div>
+        <div>
+          <h1>
+            PROJECT DEILVERY SERVICE <i class="fa-solid fa-arrow-down"></i>
+          </h1>
+        </div>
+        <div>
+          <h1>
+            MANAGED SERVICE SOULTION <i class="fa-solid fa-arrow-down"></i>
+          </h1>
+        </div>
+        <div>
+          <h1>BARRIERS TO ENTRY <i class="fa-solid fa-arrow-down"></i></h1>
+        </div>
+        <div>
+          <h1>THINK IT ASSOCIATION <i class="fa-solid fa-arrow-down"></i></h1>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer" class="section">
+      <div>
+        <h1>Over 25 Years’ Experience in IT Consulting</h1>
+        <hr />
+        <p>
+          York Solutions is a veteran owned IT consulting firm that uses a
+          non-transactional, value-based approach to provide clients with custom
+          workforce solutions to fit their business needs to successfully
+          complete IT projects.
+        </p>
+        <p>
+          Our goal at York Solutions is to always have a positive impact on the
+          lives, careers, and futures of IT professionals within the communities
+          we serve.
+        </p>
+        <button>MORE ABOUT YORK <i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+    </section>
+  </body>
+</html>
