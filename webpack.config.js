@@ -1,5 +1,6 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const webpack = require('webpack')
 
 module.exports = {
   mode: "development", // or production; development is about finding eroors and building your project whereas production is about shrinking down all the files and ensuring preformance

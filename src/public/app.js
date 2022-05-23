@@ -5,6 +5,7 @@ const { validateNames } = require("./validateNames");
 
 const other = require('./other.js')
 const style = require("./main.css");
+const styletwo = require('./other.css')
 // Document
 const img = document.getElementById("img");
 const nav = document.getElementById("nav");

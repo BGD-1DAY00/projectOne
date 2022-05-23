@@ -1,4 +1,4 @@
-const style = require("./other.css");
+
 const body = document.querySelector("body");
 
 function pading(bool = false) {

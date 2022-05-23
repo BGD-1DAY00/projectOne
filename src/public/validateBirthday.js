@@ -11,9 +11,8 @@ function getDiffDays(val) {
   const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
   return diffDays;
 }
-
 function testGetDiffDays() {
-  const expected = 11;
+  const expected = expect(11);
   const value = "5/07/2022";
   const result = getDiffDays(value);
 
@@ -23,6 +22,19 @@ function testGetDiffDays() {
     console.log(`FAIL; testValidateBirthday: ${expected} === ${result}`);
   }
 }
+function expect(val){
+  setInterval(()=>{
+    val++
+  }, 86400000)
+  return val
+}
+function testExpect(){
+  const expected = 11
+  const val = 11
+  const result = expect(val)
+  console.log(`testExpect ${result} ;; ${expected}`)
+}
+
 
 function oldEnough(diffDays) {
   if (diffDays > 6570) {
@@ -42,6 +54,7 @@ function testOldEnough() {
     console.log(`FAIL;testOldEnough expected: ${expected} === result: ${result}`);
   }
 }
+testExpect()
 testOldEnough();
 testGetDiffDays();
 

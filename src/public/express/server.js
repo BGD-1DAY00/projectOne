@@ -1,8 +1,9 @@
 const express = require("express");
 const path = require("path");
 const dotenv = require("dotenv");
+
 const app = express();
-dotenv.config({ path: "./config/config.env" });
+dotenv.config({ path: "../../config/config.env" });
 
 app.use(express.static(path.join(__dirname, "../../../dist/public/main.js")))
 
